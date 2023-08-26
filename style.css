@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    height: 8vh;
+    background-color:black;
+    color: aliceblue;
+    font-family: 'DynaPuff', cursive;;
+    width: 100vw;
+}
+header nav{
+    font-family: 'DynaPuff', cursive;
+    background-color: black;
+    color: white;
+    height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+  width: 100vw;
+}
+a{
+    /* margin: 0px 10px; */
+    text-decoration: none;
+    color:white;
+}
+.super{
+    font-size:34px;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+@keyframes pop{
+    from{
+        color: white;
+    }
+    to{
+        color: orangered;
+    }
+}
+#anime{
+    animation:pop 2s ease-in infinite;
+}
+.container{
+    min-height: calc(100vh - 15vh - 10vh);
+    /* position: relative; */
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;   
+    background-image: url("img/shopping.jpg"); */
+    width: 100vw;
+} 
+.search{
+    width:25vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 3px;
+    background-color:deeppink;
+    animation:pro 1s ease-in-out infinite;
+}
+@keyframes pro{
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width:50vw;
+    }
+    100%{
+        width:100vw;
+    }
+}
+.btn{
+    width:10vw;
+    height: 5vh;
+    border-radius:5px;
+    border:2px solid blue;
+    font-weight: 200px;
+}
+a:hover{
+    color:gold;
+}
+*{
+    box-sizing: border-box;
+}
+.slide{
+ /* margin: auto; */
+ display: flex;
+ flex-direction: column;
+ width: 33%;
+ overflow:auto;
+ justify-content: center;
+}
+.card{
+width: 100vw;
+display: flex;
+flex-direction:row;
+/* justify-content:center; */
+overflow:auto;
+background-color: antiquewhite;
+/* overflow: scroll; */
+/* background-color: red; */
+}
+.lines{
+text-align: center;
+}
+.card-item{
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 20vw;
+    /* overflow: scroll; */
+    
+}
+.veg{
+    margin:10px 10px;
+    text-align: center;
+}
+.dir{
+display: flex;
+flex-direction: row;
+}
+.cap{
+    text-align: center;
+    font-size:20px;
+    padding: 10px;
+}
+.response{
+    display:flex;
+    justify-content: center;
+    /* width: 100vw; */
+    /* margin: 10px; */
+    /* overflow:auto; */
+}
