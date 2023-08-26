@@ -1,0 +1,37 @@
+/* utility classes seperated */
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 3px;
+    background-color:deeppink;
+    animation:pro 1s ease-in-out infinite;
+}
+@keyframes pro{
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width:50vw;
+    }
+    100%{
+        width:100vw;
+    }
+}
+@media screen and (max-width:1000px) {
+    body{
+     background-color: blue;
+    }
+    nav{
+     flex-direction: column;
+    }
+    .super{
+ justify-content: center;
+ /* margin: 12px 0; */
+    }
+    nav ul{
+     justify-content: center;
+    }
+ }
